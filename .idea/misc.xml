@@ -8,7 +8,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Concurrency/pom.xml" />
-        <option value="$PROJECT_DIR$/HighConcurrency/pom.xml" />
       </list>
     </option>
   </component>

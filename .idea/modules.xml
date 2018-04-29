@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/c31mjn.iml" filepath="$PROJECT_DIR$/.idea/c31mjn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Concurrency/concurrency.iml" filepath="$PROJECT_DIR$/Concurrency/concurrency.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HighConcurrency/concurrency (1).iml" filepath="$PROJECT_DIR$/HighConcurrency/concurrency (1).iml" />
     </modules>
   </component>
 </project>
