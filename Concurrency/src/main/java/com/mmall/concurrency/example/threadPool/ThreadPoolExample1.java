@@ -14,12 +14,8 @@ public class ThreadPoolExample1 {
 
         for (int i = 0; i < 10; i++) {
             final int index = i;
-            executorService.execute(new Runnable() {
-                @Override
-                public void run() {
-                    log.info("task:{}", index);
-                }
-            });
+            executorService.execute(() -> log.info("task:{},{}",Thread.currentThread(), index));
+
         }
         executorService.shutdown();
     }

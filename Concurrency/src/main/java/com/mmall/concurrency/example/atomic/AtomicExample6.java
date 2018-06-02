@@ -43,6 +43,7 @@ public class AtomicExample6 {
     }
 
     private static void test() {
+        //可以控制代码只执行一次
         if (isHappened.compareAndSet(false, true)) {
             log.info("execute");
         }

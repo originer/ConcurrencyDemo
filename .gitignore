@@ -28,5 +28,4 @@ hs_err_pid*
 Concurrency/target/
 *.iml
 /.idea/
-/HighConcurrency/README.md
 /Concurrency/README.md

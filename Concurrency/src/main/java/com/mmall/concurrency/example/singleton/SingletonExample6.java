@@ -14,6 +14,7 @@ public class SingletonExample6 {
 
     }
 
+    // 静态成员和静态代码块的顺序会影响结果
     // 单例对象
     private static SingletonExample6 instance = null;
 

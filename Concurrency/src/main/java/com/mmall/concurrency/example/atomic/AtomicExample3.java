@@ -19,7 +19,7 @@ public class AtomicExample3 {
 
     // 同时并发执行的线程数
     public static int threadTotal = 200;
-
+    //使用在高并发场景，原理是通过把热点数据分离成不同的cell，改善了AtomicLong的CAS更新机制的压力
     public static LongAdder count = new LongAdder();
 
     public static void main(String[] args) throws Exception {

@@ -39,3 +39,4 @@ public class SingletonExample4 {
         return instance;
     }
 }
+
